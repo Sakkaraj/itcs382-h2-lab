@@ -20,7 +20,9 @@ Commit of the starter, before any change:
 Output of the second run, for `staff` and `quit`:
 
 ```text
-
+> staff
+Free lockers: 3
+> quit
 ```
 
 State in one sentence where you think the parcels of the first run were kept.
@@ -28,7 +30,7 @@ State in one sentence where you think the parcels of the first run were kept.
 0.5 The line of Main that you would change to keep the parcels somewhere else:
 
 ```java
-
+ParcelRepository repository = new H2ParcelRepository("./data/parcelpoint");
 ```
 
 0.6 Commit of the switch to H2:

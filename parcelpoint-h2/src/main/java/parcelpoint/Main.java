@@ -3,7 +3,6 @@ package parcelpoint;
 import parcelpoint.cli.ParcelCommandLine;
 import parcelpoint.service.ParcelService;
 import parcelpoint.storage.H2ParcelRepository;
-import parcelpoint.storage.InMemoryParcelRepository;
 import parcelpoint.storage.ParcelRepository;
 
 import java.util.Scanner;
